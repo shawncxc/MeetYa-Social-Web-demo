@@ -1,0 +1,19 @@
+create table users
+(
+username varchar(255),
+email varchar(255),
+password varchar(255)
+)
+
+create table activityform
+(
+lat double,
+lng double,
+activity varchar(255),
+activitylevel varchar(255),
+poster_name varchar(255),
+number_of_limit int(5),
+number_of_participants int(5),
+participants varchar(255),
+starting_date datetime
+);
